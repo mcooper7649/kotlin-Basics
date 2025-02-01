@@ -1,10 +1,8 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-    val myTrue: Boolean = true
-    val myFalse: Boolean = false
-
-    println (myTrue || myFalse)
-    println (myTrue && myFalse)
-    println (!myTrue)
+    var circleRatio = 3.14
+    println(circleRatio)
+    circleRatio = 3.123231231231543645756875686546436464564576
+    println(circleRatio)
 }
