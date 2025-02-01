@@ -18,6 +18,6 @@ fun main(){
    }else if (age >= 18){
        println("you can enter")
    } else {
-       "You are too young to go into the club"
+       println("You are too young to go into the club")
    }
 }
