@@ -1,11 +1,9 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-   var userInput = readln()
-    while (userInput == "1"){
-        println("While loop executed")
-        userInput = readln()
-    }
+    makeCoffee(3)
+}
 
-    println("Loop is done")
+fun makeCoffee(sugarCount : Int){
+    println("Coffee with $sugarCount spoons of sugar")
 }
