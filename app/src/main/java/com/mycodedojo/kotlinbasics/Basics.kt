@@ -1,9 +1,15 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-   var firstName = "Mike"
-    val lastName = "Cooper"
-    //name = "Vary Long Paragraphs can also be stored in strings"
-
-    println(firstName + "\n"+ lastName)
+    var age = 40
+    // greater than >
+    // lower than <
+    // greater equal >=
+    // lower equal <=
+    // equal ==
+   if(age >= 21){
+       println("you can go into the bar")
+   }else{
+       println("you cannot enter the bar")
+   }
 }
