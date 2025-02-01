@@ -13,9 +13,9 @@ fun main(){
     val enteredValue = readln()
     //Convert from string to int
     age = enteredValue.toInt()
-   if(age >= 21){
+    if(age in 18..39){
        println("you can go into the bar")
-   }else{
-       println("you cannot enter the bar")
-   }
+   }else if(age > 40){
+       println("you are too old")
+   }else{"You are too young to go into the club"}
 }
