@@ -1,9 +1,12 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-    makeCoffee(3)
+    var myResult = add(4, 10)
+
+    println(myResult)
 }
 
-fun makeCoffee(sugarCount : Int){
-    println("Coffee with $sugarCount spoons of sugar")
+fun add(num1:Int, num2:Int):Int {
+    val result = num1 + num2
+    return result
 }
