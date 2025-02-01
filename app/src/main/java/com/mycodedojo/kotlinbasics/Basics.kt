@@ -1,7 +1,9 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-   val myChar = '\u00AE'
+   var firstName = "Mike"
+    val lastName = "Cooper"
+    //name = "Vary Long Paragraphs can also be stored in strings"
 
-    println(myChar)
+    println(firstName + "\n"+ lastName)
 }
