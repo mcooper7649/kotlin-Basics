@@ -1,12 +1,9 @@
 package com.mycodedojo.kotlinbasics
 
 fun main(){
-    makeCoffee()
+    makeCoffee(3)
 }
 
-fun makeCoffee(){
-    println("Grind Beans")
-    println("Add water")
-    println("Press start")
-    println("Pour in Cup")
+fun makeCoffee(sugarCount : Int){
+    println("Coffee with $sugarCount spoons of sugar")
 }
