@@ -21,6 +21,9 @@ fun main() {
     println(shoppingList)
 
     shoppingList.add(2, "Ram v2")
+    println(shoppingList[3])
+
+    shoppingList[3] = "Oil Based Cooling System"
     println(shoppingList)
 
 }
