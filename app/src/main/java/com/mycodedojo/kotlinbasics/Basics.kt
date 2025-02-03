@@ -29,4 +29,14 @@ fun main() {
     shoppingList.set(1, "SATA")
     println(shoppingList)
 
+    val hasRam = shoppingList.contains("SATA")
+
+    if (hasRam){
+        println(
+            "Has SATA in the list"
+        )
+    }else {
+        println("No SATA in the list")
+    }
+
 }
