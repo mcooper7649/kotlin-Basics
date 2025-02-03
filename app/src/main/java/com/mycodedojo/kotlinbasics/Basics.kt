@@ -17,4 +17,26 @@ fun main() {
 
     println(shoppingList)
 
+    shoppingList.removeAt(1)
+    println(shoppingList)
+
+    shoppingList.add(2, "Ram v2")
+    println(shoppingList[3])
+
+    shoppingList[3] = "Oil Based Cooling System"
+    println(shoppingList)
+
+    shoppingList.set(1, "SATA")
+    println(shoppingList)
+
+    val hasRam = shoppingList.contains("SATA")
+
+    if (hasRam){
+        println(
+            "Has SATA in the list"
+        )
+    }else {
+        println("No SATA in the list")
+    }
+
 }
