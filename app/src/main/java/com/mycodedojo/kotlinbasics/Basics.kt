@@ -17,4 +17,10 @@ fun main() {
 
     println(shoppingList)
 
+    shoppingList.removeAt(1)
+    println(shoppingList)
+
+    shoppingList.add(2, "Ram v2")
+    println(shoppingList)
+
 }
