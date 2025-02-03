@@ -1,21 +1,20 @@
 package com.mycodedojo.kotlinbasics
 
 fun main() {
-    var daisy = Dog("Daisy", "Poodle", 1)
-    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+    //Immutable list
+    //You cannot add items later on
+    //val shoppingList = listOf("Processor", "Ram", "SSD", "Graphics Card")
+    //Mutable List you can add items
 
-    println("A year has passed!")
-    daisy.name = "Hello World"
-    daisy.age = 2
+    val shoppingList = mutableListOf("Processor", "Ram", "SSD", "Graphics Card 3060")
 
-    println("${daisy.name} is a ${daisy.breed} and is ${daisy.age} years old")
+    //adding items to lists
+    shoppingList.add("Cooling System")
 
-//    var myBook = Book()
+    shoppingList.remove("Graphics Card 3060")
 
-//    var customBook = Book("War", "Cooper", 2021)
-//
-//    println("${myBook.title} by ${myBook.author} was written in ${myBook.yearPublished}")
-//    println("${customBook.title} by ${customBook.author} was written in ${customBook.yearPublished}")
+    shoppingList.add("Graphics Card 4090")
 
+    println(shoppingList)
 
 }
