@@ -26,4 +26,7 @@ fun main() {
     shoppingList[3] = "Oil Based Cooling System"
     println(shoppingList)
 
+    shoppingList.set(1, "SATA")
+    println(shoppingList)
+
 }
