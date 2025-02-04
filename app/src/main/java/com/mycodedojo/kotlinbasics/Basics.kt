@@ -39,13 +39,8 @@ fun main() {
         println("No SATA in the list")
     }
 
-    for (item in shoppingList){
-        println(item)
-        if(item == "Ram v2"){
-            shoppingList.removeLast()
-            println(shoppingList)
-            break
-        }
+    for(index in 0 until shoppingList.size){
+        println("item ${shoppingList[index]} is at index ${index}")
     }
 
 }
